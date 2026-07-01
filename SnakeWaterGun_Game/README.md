@@ -29,3 +29,12 @@ A simpe command-line Snake Water Gun Game built using Python. This project is ba
 - Python 
 - Random Module
 - pyttsx3 Module
+## 📚Concept Used
+- Variables
+- Conditional Statements
+- Loops
+- User Input Handling
+- Random Number Generation
+- pyttsx3
+## 👩🏻‍💻Author
+  - Satyabhama Pani
