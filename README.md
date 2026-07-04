@@ -10,3 +10,12 @@ Welcome to Python Projects repository contains Python programs created while lea
 ### 🔹Snake Water Gun Game 
 - A simpe command-line Snake Water Gun Game built using Python. This project is based on classic Rock-Paper-Scissors, where the player competes against the computer.
 - Concepts Used - Variables, Conditional Statements, Loops, User Input Handling, Random Number Generation, pyttsx3.
+## 🛠️ Technologies Used
+- Python 3.13.5
+- VS code 
+- Git and GitHub
+## 🔜 Future Updates
+More beginner and intermediate Python projects will be added to this repository as I continue my learning journey.
+
+⭐ Thankyou for visiting this repository. Feedback and suggestions are always welcome!
+
