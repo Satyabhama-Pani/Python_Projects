@@ -10,6 +10,9 @@ Welcome to Python Projects repository contains Python programs created while lea
 ### 🔹Snake Water Gun Game 
 - A simpe command-line Snake Water Gun Game built using Python. This project is based on classic Rock-Paper-Scissors, where the player competes against the computer.
 - Concepts Used - Variables, Conditional Statements, Loops, User Input Handling, Random Number Generation, pyttsx3.
+### 🔹Password Strength Checker
+- A simple Python-based Password Strength Checker that analyzes a user's password and evaluates its strength based on various criteria such as length, uppercase letters, lowercase letters, digits and special characters.
+- Concepts Used - Variables, Conditional Statements, Loops, String Methods, Exception Handling, User Input Handling.
 ## 🛠️ Technologies Used
 - Python 3.13.5
 - VS code 
