@@ -18,6 +18,8 @@ try:
                 special_count += 1          
             elif ch.isdecimal():
                 digit_count += 1
+    else:
+        print("\nPassword less than 8 charcters are too easy to crack\n")
 except Exception as e:
     print("Unexpected Error: {e}")
 
