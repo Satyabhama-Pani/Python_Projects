@@ -16,3 +16,26 @@ A simple Python-based Password Strength Checker that analyzes a user's password 
 - Python 3.13.5
 - VS code 
 - Git and GitHub
+## 📂Project Structure
+    |-snake.py
+    |-README.md
+    |-Strong.png
+    |-Medium.png
+    |-Weak.png
+    |-Length.png
+## 📚Concept Used
+- Variables
+- Conditional Statements
+- Loops
+- String Methods
+- Exception Handling
+- User Input Handling
+## 📊Password Evaluation Criteria
+    | Criteria        |      Score        |
+    |-----------------|-------------------|
+    |  Length >= 8    |      +1           |
+    |  Uppercase      |      +1           |
+    |  Lowercase      |      +1           |
+    |  Digit          |      +1           |
+## 👩🏻‍💻Author 
+    - Satyabhama Pani
