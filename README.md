@@ -13,6 +13,9 @@ Welcome to Python Projects repository contains Python programs created while lea
 ### 🔹Password Strength Checker
 - A simple Python-based Password Strength Checker that analyzes a user's password and evaluates its strength based on various criteria such as length, uppercase letters, lowercase letters, digits and special characters.
 - Concepts Used - Variables, Conditional Statements, Loops, String Methods, Exception Handling, User Input Handling.
+### 🔹Pattern Generator 
+- A simple Menu-Driven Pattern Generator built using Python. This project allows users to generate different single character patterns by selecting options from a menu.
+- Concepts Used - Variables, Conditional Statements, Loops, Nested Loops, Functions, Dictionary, Exception Handling, User Input Handling.
 ## 🛠️ Technologies Used
 - Python 3.13.5
 - VS code 
