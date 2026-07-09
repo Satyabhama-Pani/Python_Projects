@@ -22,8 +22,9 @@ A simple Menu-Driven Pattern Generator built using Python. This project allows u
     |-pattern.py
     |-README.md
     |-Square.png
-    |-Triangle.png
-    |-Inverted.png
+    |-Hollow_Square.png
+    |-Left_triangle.png
+    |-Inverted_triangle.png
     |-Pyramid.png
     |-Diamond.png
 ## 📚Concepts Used
