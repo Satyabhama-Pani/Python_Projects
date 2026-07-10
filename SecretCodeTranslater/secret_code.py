@@ -24,7 +24,7 @@ for word in temp:
 
 # decoded message 
 encoded_msg = " ".join(encoded)
-print(f"Encoded word: {encoded_msg}")
+print(f"Encoded message: {encoded_msg}")
 
 # validate authority
 user_key = input("Enter the key to decode: ")
@@ -44,4 +44,4 @@ for word in encoded:
             word = word[::-1]
             decoded.append(word)
 decoded_msg = " ".join(decoded)
-print(f"Decoded word: {decoded_msg}")
+print(f"Decoded message: {decoded_msg}")
