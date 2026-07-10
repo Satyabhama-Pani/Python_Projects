@@ -1,0 +1,2 @@
+# Sedcret Code Translater
+A Python-based **Secret Code Translater** that can encode and decode messages using a custom algorithm. To improve security, decoding requires a **secret key**, ensuring only authorised users can reveal the original message 

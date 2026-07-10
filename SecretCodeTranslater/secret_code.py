@@ -3,6 +3,7 @@ import random as r
 chars = "abcdefghijklmnopqrstuvwxyz"
 
 # original message
+username = input("Enter your username")
 message = input("Enter your message: ")
 temp = message.split()
 
@@ -27,7 +28,7 @@ print(f"Encoded word: {encoded_msg}")
 
 # validate authority
 user_key = input("Enter the key to decode: ")
-key = "12decode3" ## who can decode message 
+key = username ## who can decode message 
 
 # decoded logic
 decoded = []
