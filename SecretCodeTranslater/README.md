@@ -27,4 +27,7 @@ A Python-based **Secret Code Translater** that can encode and decode messages us
     - Append it to beginning
 - Else 
     - Reverse the string
-## 
+## 📂Project Structure
+    |- secret_code.py
+    |- README.md
+    |- 

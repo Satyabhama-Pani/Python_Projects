@@ -3,7 +3,7 @@ import random as r
 chars = "abcdefghijklmnopqrstuvwxyz"
 
 # original message
-username = input("Enter your username")
+username = input("Enter your username: ")
 message = input("Enter your message: ")
 temp = message.split()
 
@@ -34,6 +34,7 @@ key = username ## who can decode message
 decoded = []
 for word in encoded:
     if user_key == key:
+        print("Access Granted!\n")
         if len(word) >= 3:
             # remove random charaters
             word = word[3:-3]
