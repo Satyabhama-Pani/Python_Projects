@@ -20,8 +20,8 @@ A Python-based **Secret Code Translater** that can encode and decode messages us
     - Simply reverse the string
 ## 🔓Decoding Rules
 **Before Decoding**
-    - User must enter the secret key
-    - If key not coorect Access Denied
+- User must enter the secret key
+- If key not correct Access Denied
 - If the code contains atleast three character
     - Remove 3 random characters from start and end
     - Remove the last letter
