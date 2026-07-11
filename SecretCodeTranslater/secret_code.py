@@ -33,8 +33,9 @@ key = username ## who can decode message
 
 # decoded logic
 decoded = []
-for word in encoded:
-    if user_key == key:
+if user_key == key:
+    print("Access Granted")   
+    for word in encoded:
         if len(word) >= 3:
             # remove random charaters
             word = word[3:-3]
