@@ -21,6 +21,7 @@ A Python-based **Secret Code Translater** that can encode and decode messages us
 ## 🔓Decoding Rules
 **Before Decoding**
     - User must enter the secret key
+    - If key not coorect Access Denied
 - If the code contains atleast three character
     - Remove 3 random characters from start and end
     - Remove the last letter
@@ -31,3 +32,4 @@ A Python-based **Secret Code Translater** that can encode and decode messages us
     |- secret_code.py
     |- README.md
     |- 
+    

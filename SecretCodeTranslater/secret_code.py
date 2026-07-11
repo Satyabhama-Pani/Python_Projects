@@ -24,17 +24,17 @@ for word in temp:
 
 # decoded message 
 encoded_msg = " ".join(encoded)
+print()
 print(f"Encoded message: {encoded_msg}")
 
 # validate authority
-user_key = input("Enter the key to decode: ")
+user_key = input("\nEnter the key to decode: ")
 key = username ## who can decode message 
 
 # decoded logic
 decoded = []
 for word in encoded:
     if user_key == key:
-        print("Access Granted!\n")
         if len(word) >= 3:
             # remove random charaters
             word = word[3:-3]
