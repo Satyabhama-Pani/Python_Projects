@@ -31,5 +31,16 @@ A Python-based **Secret Code Translater** that can encode and decode messages us
 ## 📂Project Structure
     |- secret_code.py
     |- README.md
-    |- 
+    |- Encode.png
+    |- Decode.png
+    |- New.png
+## 📚Concepts Used
+- Variables
+- Conditional Statements
+- Strings
+- String Slicing
+- Loops
+- User Input Handling
+## 👩🏻‍💻Author 
+    - Satyabhama Pani
     
