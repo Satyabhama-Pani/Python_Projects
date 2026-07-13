@@ -38,9 +38,23 @@ def camelcase(text):
 def pascalcase(text):
     words = text.split()
     return "".join(word.capitalize() for word in words)
+# Snake case
 def snakecase(text):
     words = text.split()
     return "_".join(word.lower() for word in words)
+# Kebab case
 def kebabcase(text):
     words = text.split()
     return "-".join(word.lower() for word in words)
+# get input
+def get_input():
+    while True:
+        try:
+            t = input("Enter the text: ").strip()
+            if t.isdecimal():
+                raise ValueError("Input cannot contain only numbers")
+            if not t:
+                raise ValueError("Empty input")
+            return t
+        except ValueError as e:
+            print(f"Error: {e}")
