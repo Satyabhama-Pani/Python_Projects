@@ -38,3 +38,9 @@ def camelcase(text):
 def pascalcase(text):
     words = text.split()
     return "".join(word.capitalize() for word in words)
+def snakecase(text):
+    words = text.split()
+    return "_".join(word.lower() for word in words)
+def kebabcase(text):
+    words = text.split()
+    return "-".join(word.lower() for word in words)
