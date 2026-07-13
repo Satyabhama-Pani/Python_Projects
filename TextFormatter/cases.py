@@ -14,3 +14,14 @@ def menu():
           8. snake_case
           9. kebab-case
           \n''')
+# All case function
+def uppercase(text):
+    return text.upper()
+def lowercase(text):
+    return text.lower()
+def titlecase(text):
+    return text.title()
+def sentencecase(text):
+    return text.capitalize()
+def swapcase(text):
+    return text.swapcase()
