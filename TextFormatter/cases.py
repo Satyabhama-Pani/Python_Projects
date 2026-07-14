@@ -1,7 +1,7 @@
 # Main menu
 def menu():
     print("\n"+ "*"*40)
-    print("Text Formatter")
+    print(f"{"Text Formatter":^40}")
     print("*"*40 + "\n")
     print(f'''Cases options are:
           1. UPPERCASE
