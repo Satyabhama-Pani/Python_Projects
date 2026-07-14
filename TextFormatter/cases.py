@@ -58,3 +58,37 @@ def get_input():
             return t
         except ValueError as e:
             print(f"Error: {e}")
+# mapping
+cases = {
+    1: uppercase,
+    2: lowercase,
+    3: titlecase,
+    4: sentencecase,
+    5: swapcase,
+    6: camelcase,
+    7: pascalcase,
+    8: snakecase,
+    9: kebabcase
+}
+# Main logic 
+if __name__ =="__main__":
+        choice = "yes"
+        while choice == "yes":
+            menu()
+            while True:
+                try:
+                    opt = int(input("Enter your choice: "))
+                    break
+                except ValueError as e:
+                    print(f"Error: {e}")
+            if opt == 0:
+                print("Thankyou!")
+            elif opt not in cases:
+                print("Choose valid option...")
+                continue
+            text = get_input()
+            print()
+            converted = cases[opt](text)
+            print(f"Formated text: {converted}")
+            print()
+            choice = input("Do you want to continue?").lower()
