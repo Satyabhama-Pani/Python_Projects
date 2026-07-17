@@ -37,3 +37,14 @@ questions = {
     }
 }
 
+# player names and prizes
+player_names =[]
+player_prizes = []
+
+#  prize money list
+prizes = [1000,2000,5000,10000,50000]
+
+# Welcome note
+print("*" * 50)
+print("\t\tWelcome to QuizMaster\U0001F3C6")
+print("*" * 50)
