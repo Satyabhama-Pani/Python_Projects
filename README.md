@@ -19,6 +19,9 @@ Welcome to Python Projects repository contains Python programs created while lea
 ### 🔹Secret Code Translater
 - A Python-based **Secret Code Translater** that can encode and decode messages using a custom algorithm. To improve security, decoding requires a **secret key**(for now username is secret key), ensuring only authorised users can reveal the original message.
 - Concepts Used - Variables, Conditional Statements, Strings, String Slicing, Loops, User Input Handling
+### 🔹Text Formatter
+- A simple **Text Formatter** built using **Python** that allows users to convert text into various letter cases using a menu-driven interface. This project is ideal for beginners to understand Python string manipulation, functions, and menu-driven programming.
+- Concepts Used- Functions, User Input (`input()`), String Manipulation, Built-in String Methods, Conditional Statements (`if-elif-else`), Loops , Variables, Menu-Driven Programming
 ## 🛠️ Technologies Used
 - Python 3.13.5
 - VS code 
