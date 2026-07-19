@@ -1,3 +1,5 @@
+import os 
+
 # Questions  dictionary
 questions = {
     "In Hindi mythology, who is the elder brother Of lord Krishna": {
@@ -78,6 +80,9 @@ for i in range(n):
         print(f"Questions answered: {counter}/{len(questions)}\u2B50")
     player_names.append(name)
     player_prizes.append(prize)
+    if i < n-1:
+        input("Press Enter to start to next player's turn...")
+        os.system("cls")
 
 # store player with highest money
 highest = max(player_prizes)
