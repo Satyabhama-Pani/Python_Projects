@@ -13,3 +13,4 @@ class Student:
         print(f"Roll No.: {self.roll}")
         print(f"Marks: {self.marks}")
         print(f"College: {self.college}")
+        
