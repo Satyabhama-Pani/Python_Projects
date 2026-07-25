@@ -46,3 +46,20 @@ class School:
             7. Show Class teacher
             8. Exit
             ''')
+    # Add Students
+    def add_student(self):
+        try:
+            self.name = input("Enter a name: ")
+            self.roll = int(input("Enter roll number: "))
+            self.marks = int(input("Enter marks: "))
+            self.classes = int(input("Enter Class of Student: "))
+        except ValueError as v:
+            print(f"Error : {v}")
+            return
+        #  If marks is less than 60 student will not be added
+        if self.marks >= 60:
+            s = Student(self.name,self.roll,self.marks,self.classes)
+            self.students.append(s)
+            print("\nAdded Succesfully")
+        else:
+            print("Not qualified in admission test to added")
