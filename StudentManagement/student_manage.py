@@ -63,7 +63,7 @@ class School:
             print("\nAdded Succesfully")
         else:
             print("Not qualified in admission test to added")
-            
+
     #  View Students
     def view_students(self):
         if len(self.students) > 0:
@@ -71,3 +71,20 @@ class School:
                 student.display()
         else:
             print("No records added yet")
+            
+    #  Search student based on key 
+    def search_student(self):
+        found = False
+        try:
+            self.search_roll = int(input("Enter roll number to search the student: "))
+        except ValueError as v:
+            print(f"Error: {v}")
+            return 
+        for student in self.students:
+            if student.roll == self.search_roll:
+                found = True
+                print("Student Found")
+                student.display()
+                break
+        if not found:
+            print("Student not found") 
