@@ -63,3 +63,11 @@ class School:
             print("\nAdded Succesfully")
         else:
             print("Not qualified in admission test to added")
+            
+    #  View Students
+    def view_students(self):
+        if len(self.students) > 0:
+            for student in self.students:
+                student.display()
+        else:
+            print("No records added yet")
