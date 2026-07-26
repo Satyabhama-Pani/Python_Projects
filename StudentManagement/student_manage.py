@@ -72,7 +72,7 @@ class School:
         else:
             print("No records added yet")
             
-    #  Search student based on key 
+    #  Search student based on roll 
     def search_student(self):
         found = False
         try:
