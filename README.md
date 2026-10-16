@@ -22,6 +22,9 @@ Welcome to Python Projects repository contains Python programs created while lea
 ### 🔹Text Formatter
 - A simple **Text Formatter** built using **Python** that allows users to convert text into various letter cases using a menu-driven interface. This project is ideal for beginners to understand Python string manipulation, functions, and menu-driven programming.
 - Concepts Used- Functions, User Input (`input()`), String Manipulation, Built-in String Methods, Conditional Statements (`if-elif-else`), Loops , Variables, Menu-Driven Programming
+### 🔹Student Management System
+- A Python based **Student Management System** designed to manage student records such as student name, roll number, marks and class. The project provides features such as adding, viewing, searching, updating, deleting and managing students.
+- Concepts Used- Classes, Objects, Functions, Lists, User Input (`input()`), String, Conditional Statements (`if-elif-else`), Loops, Exception Handling, Menu-Driven Programming
 ## 🛠️ Technologies Used
 - Python 3.13.5
 - VS code 
