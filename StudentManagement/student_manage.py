@@ -88,3 +88,22 @@ class School:
                 break
         if not found:
             print("Student not found") 
+
+    # Update student marks based on roll number
+    def update_marks(self):
+        found = False
+        try:
+            self.search_roll = int(input("Enter roll number to search the student: "))
+            self.up_marks = int(input("Enter updated/new marks:"))
+        except ValueError as v:
+            print(f"Error: {v}")
+            return
+        for student in self.students:
+            if student.roll == self.search_roll:
+                found = True
+                student.marks = self.up_marks
+                print("Marks Updated successfully")
+                student.display()
+                break
+        if not found:
+            print("Student not found! Marks can't be updated") 
